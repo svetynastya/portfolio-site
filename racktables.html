@@ -1,0 +1,1272 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>RackTables — кейс Анастасии Городецкой</title><meta name="description" content="Исследование, прототипирование и UI/UX дизайн главного экрана RackTables."><link rel="stylesheet" href="racktables.css"></head><body><main><div data-node-id="35:2" class="r0 case-desktop">
+      <div data-node-id="39:14" class="r1">
+        <a data-node-id="39:15" class="r2" href="index.html#works">
+          ← К работам
+        </a>
+        <div data-node-id="39:16" class="r3">
+          <p data-node-id="I39:16;36:3" class="r4">
+            UX / UI · Кейс
+          </p>
+        </div>
+        <div data-node-id="41:94" class="r5">
+          <h1 data-node-id="39:18" class="r6">
+            Дизайн интерфейса RackTables
+          </h1>
+          <a data-node-id="39:20" class="r7" href="https://www.figma.com/design/73gWIQmLJjrZSkfqI5qJRt/?node-id=35-2" target="_blank" rel="noopener noreferrer">
+            Ссылка на файлы в Figma:
+          </a>
+        </div>
+      </div>
+      <div data-node-id="38:87" class="r8">
+        <h2 data-node-id="39:23" class="r9">
+          Этапы работы:
+        </h2>
+        <div data-node-id="38:86" class="r10">
+          <p data-node-id="39:24" class="r11">
+            1. Исследование внутреннего устройства сервиса
+          </p>
+          <p data-node-id="39:25" class="r11">
+            2. Провела desk-исследовние, сделала выводы и гипотезы
+          </p>
+          <p data-node-id="39:26" class="r11">
+            3. Wireframe экрана, учитывая UX-проблемы старого интерфейса
+          </p>
+          <p data-node-id="39:27" class="r11">
+            4. C помощью дизайн-системы созданы первые варианты интерфейса
+          </p>
+          <p data-node-id="39:28" class="r11">
+            5. Создана карта user-flow главного экрана
+          </p>
+          <p data-node-id="39:29" class="r12">
+            <span class="r13">6. Возможные сценарии при использовании интерфейса в будущем + </span>
+            <span class="r14">видео</span>
+          </p>
+          <p data-node-id="39:30" class="r11">
+            7. Разработка и улучшения в дальнейшем
+          </p>
+        </div>
+      </div>
+      <div data-node-id="39:31" class="r15">
+        <h2 data-node-id="39:32" class="r16">
+          Главная задача:
+        </h2>
+        <div data-node-id="38:89" class="r17">
+          <div data-node-id="39:33" class="r18">
+            <p class="r19">Переработать и разработать такой дизайн интерфейса, который бы</p>
+            <p class="r19">помогал начать быстрее работу пользователю и перейти к активному действию.</p>
+            <p class="r13">Поменять подход к использованию самого экрана.</p>
+          </div>
+          <p data-node-id="39:34" class="r20">
+            Я исследовала структуру существующего интерфейса RackTables, выявила основные UX и UI-проблемы и переработала информационную архитектуру, навигацию и ключевые пользовательские сценарии, чтобы ускорить работу специалистов.
+          </p>
+        </div>
+        <div data-node-id="38:88" class="r21">
+          <div data-node-id="39:35" class="r22">
+            <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/a59ed.png" class="r23" loading="lazy" decoding="async">
+          </div>
+          <p data-node-id="39:36" class="r24">
+            Новый интерфейс RackTables
+          </p>
+        </div>
+      </div>
+      <div data-node-id="39:37" class="r25">
+        <h2 data-node-id="39:38" class="r16">
+          RackTables
+        </h2>
+        <div data-node-id="41:91" class="r21">
+          <div data-node-id="41:90" class="r21">
+            <p data-node-id="39:39" class="r26">
+              это веб инструмент со всей компьютерной инфраструктурой компании.
+            </p>
+            <div data-node-id="39:40" class="r27">
+              <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/8eb26.png" class="r23" loading="lazy" decoding="async">
+            </div>
+          </div>
+          <p data-node-id="39:41" class="r24">
+            Интерфейс RackTables, старый вариант
+          </p>
+        </div>
+      </div>
+      <div data-node-id="39:42" class="r28">
+        <div data-node-id="41:92" class="r29">
+          <h2 data-node-id="39:43" class="r9">
+            Общая информация о RackTables
+          </h2>
+          <div data-node-id="39:44" class="r30">
+            <p class="r19">Перед началом работы я сначала собрала всю главную информацию об инструменте,</p>
+            <p class="r13">чтобы понять для чего он, для кого и из чего состоит</p>
+          </div>
+        </div>
+        <div data-node-id="41:93" class="r31">
+          <p data-node-id="39:45" class="r32">
+            Основные пользователи:
+          </p>
+          <div data-node-id="39:46" class="r33">
+            <p class="r19">системные администраторы, DevOps-инженеры, сетевые инженеры</p>
+            <p class="r13">и специалисты, отвечающие за IT-инфраструктуру.</p>
+          </div>
+        </div>
+        <div data-node-id="41:282" class="r34">
+          <p data-node-id="39:47" class="r32">
+            Задачи пользователей:
+          </p>
+          <div data-node-id="41:281" class="r35">
+            <p data-node-id="39:48" class="r36">
+              • найти конкретный сервер или оборудование;
+            </p>
+            <p data-node-id="39:49" class="r36">
+              • определить физическое расположение устройства;
+            </p>
+            <p data-node-id="39:50" class="r36">
+              • проверить IP-адрес;
+            </p>
+            <p data-node-id="39:51" class="r36">
+              • понять, к чему подключено устройство;
+            </p>
+            <p data-node-id="39:52" class="r36">
+              • найти свободный IP-адрес;
+            </p>
+            <p data-node-id="39:53" class="r36">
+              • посмотреть содержимое серверного шкафа;
+            </p>
+            <p data-node-id="39:54" class="r36">
+              • добавить или изменить информацию об оборудовании;
+            </p>
+            <p data-node-id="39:55" class="r36">
+              • проверить историю изменений;
+            </p>
+            <p data-node-id="39:56" class="r36">
+              • найти связанную документацию.
+            </p>
+          </div>
+        </div>
+        <div data-node-id="41:283" class="r37">
+          <p data-node-id="39:57" class="r38">
+            Главная задача интерфейса:
+          </p>
+          <p data-node-id="39:58" class="r39">
+            быстро предоставить специалисту нужную информацию о сложной IT-инфраструктуре.
+          </p>
+        </div>
+        <div data-node-id="41:285" class="r21">
+          <p data-node-id="39:59" class="r40">
+            Что содержит внутри себя каждый раздел:
+          </p>
+          <div data-node-id="39:60" class="r41">
+            <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/4b5ef.png" class="r23" loading="lazy" decoding="async">
+          </div>
+        </div>
+        <div data-node-id="41:284" class="r42">
+          <p data-node-id="39:61" class="r26">
+            Разделим их на основные категории:
+          </p>
+          <div data-node-id="39:62" class="r43">
+            <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/a30b6.png" class="r23" loading="lazy" decoding="async">
+          </div>
+        </div>
+        <div data-node-id="39:63" class="r44">
+          <p class="r19">Так как у нас нет задачи спроектировать весь сервис, а только переработать главный экран, то я решила начать</p>
+          <p class="r13">с desk-исследования, чтобы понять, какие похожие сервисы есть на рынке, что они предлагают пользователям, и какие решения уже существуют.</p>
+        </div>
+      </div>
+      <div data-node-id="39:64" class="r28">
+        <div data-node-id="41:286" class="r29">
+          <h2 data-node-id="39:65" class="r9">
+            Desk-исследование
+          </h2>
+          <p data-node-id="39:66" class="r45">
+            Для исследования я взяла основные интерфейсы инструментов NetBox и Device 42.
+          </p>
+        </div>
+        <div data-node-id="41:287" class="r21">
+          <p data-node-id="39:67" class="r46">
+            Основная структура экранов:
+          </p>
+          <div data-node-id="39:68" class="r47">
+            <div class="r48">
+              <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/429be.png" class="r49" loading="lazy" decoding="async">
+            </div>
+          </div>
+        </div>
+        <div data-node-id="41:288" class="r50">
+          <p data-node-id="39:69" class="r11">
+            • Оба сервиса сразу делится основной информацией, статистикой, dashboards и т.п. на главном экране
+          </p>
+          <div data-node-id="39:70" class="r12">
+            <p class="r19">• В отдельную навигацию наверх или слева помещают разделы, по которым можно перейти</p>
+            <p class="r13">для поиска более подробной информации, серверов, соединений и т.п.</p>
+          </div>
+          <p data-node-id="39:71" class="r11">
+            • NetBox отличается тем, что сразу предоставляет журнал изменений на Home page
+          </p>
+        </div>
+        <div data-node-id="41:291" class="r51">
+          <div data-node-id="41:290" class="r52">
+            <div data-node-id="41:289" class="r21">
+              <div data-node-id="39:72" class="r53">
+                <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/471e5.png" class="r23" loading="lazy" decoding="async">
+              </div>
+              <p data-node-id="39:73" class="r24">
+                Интерфейс главного экрана NetBox
+              </p>
+            </div>
+            <h2 data-node-id="39:74" class="r54">
+              Отличия в использовании UI и UX-дизайна:
+            </h2>
+          </div>
+          <div data-node-id="39:75" class="r55">
+            <div data-node-id="39:76" class="r56">
+              <p data-node-id="39:77" class="r57">
+                NetBox
+              </p>
+              <p data-node-id="39:78" class="r58">
+                <span class="r13">• </span>
+                <span class="r14">NetBox не строит навигацию вокруг больших иллюстраций, как RackTables.</span>
+              </p>
+              <div data-node-id="41:292" class="r59">
+                <p data-node-id="39:79" class="r60">
+                  Используются:
+                </p>
+                <p data-node-id="39:80" class="r60">
+                  • текстовые названия;
+                </p>
+                <p data-node-id="39:81" class="r60">
+                  • небольшие UI-иконки;
+                </p>
+                <p data-node-id="39:82" class="r60">
+                  • визуальные элементы внутри интерфейса;
+                </p>
+                <p data-node-id="39:83" class="r60">
+                  • цветовые состояния.
+                </p>
+              </div>
+              <p data-node-id="39:84" class="r61">
+                Для технического продукта текст является основным носителем смысла, а иконка выполняет вспомогательную функцию. Также есть расширенные фильтры и сохранение часто используемых фильтров.
+              </p>
+              <p data-node-id="39:85" class="r58">
+                <span class="r13">• </span>
+                <span class="r14">Иерархия</span>
+              </p>
+              <div data-node-id="41:293" class="r59">
+                <p data-node-id="39:86" class="r60">
+                  1. Global navigation → левая колонка
+                </p>
+                <p data-node-id="39:87" class="r60">
+                  2. Dashboard widgets → крупные смысловые блоки
+                </p>
+                <p data-node-id="39:88" class="r60">
+                  3. Entity → Sites / Devices / IP Addresses
+                </p>
+                <p data-node-id="39:89" class="r60">
+                  4. Count → количество объектов
+                </p>
+                <p data-node-id="39:90" class="r60">
+                  То есть пользователь может быстро просканировать:
+                </p>
+                <p data-node-id="39:91" class="r60">
+                  IPAM → IP Addresses → 180
+                </p>
+              </div>
+              <p data-node-id="39:92" class="r58">
+                <span class="r13">• </span>
+                <span class="r14">Dashboard можно перестраивать: </span>
+                <span class="r13">пользователь может менять размер, положение и набор виджетов.</span>
+              </p>
+              <div data-node-id="41:294" class="r62">
+                <p data-node-id="39:93" class="r63">
+                  <span class="r13">• </span>
+                  <span class="r14">Search в NetBox</span>
+                </p>
+                <p data-node-id="39:94" class="r64">
+                  Поиск находится в верхней части приложения.
+                </p>
+              </div>
+              <div data-node-id="41:295" class="r65">
+                <p data-node-id="39:95" class="r57">
+                  Минусы:
+                </p>
+                <div data-node-id="41:296" class="r62">
+                  <div data-node-id="41:297" class="r66">
+                    <p data-node-id="39:96" class="r63">
+                      <span class="r13">• </span>
+                      <span class="r14">Высокий порог входа</span>
+                    </p>
+                    <p data-node-id="39:97" class="r64">
+                      Главный экран нагружен терминами (что неизбежно):
+                    </p>
+                  </div>
+                  <div data-node-id="41:298" class="r66">
+                    <p data-node-id="39:98" class="r63">
+                      <span class="r13">• </span>
+                      <span class="r14">Dashboard может быть перегружен</span>
+                    </p>
+                    <p data-node-id="39:99" class="r64">
+                      Для нового пользователя проблема: «А на что вообще смотреть?»
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-node-id="39:100" class="r67">
+              <div data-node-id="41:301" class="r21">
+                <p data-node-id="39:101" class="r68">
+                  Device42
+                </p>
+                <div data-node-id="41:300" class="r21">
+                  <p data-node-id="39:102" class="r69">
+                    <span class="r13">• </span>
+                    <span class="r14">Более сильный акцент на визуальном минимализме.</span>
+                  </p>
+                  <div data-node-id="41:299" class="r70">
+                    <p data-node-id="39:103" class="r60">
+                      Плюс акцент идёт сразу на данных, которые показываются на первом экране, а самая нужная информация, с помощью визуализации, даёт представление пользователю о том, что у нас есть сейчас.
+                    </p>
+                    <p data-node-id="39:104" class="r60">
+                      Navigation → Dashboard → Data
+                    </p>
+                  </div>
+                  <p data-node-id="39:105" class="r69">
+                    <span class="r13">• </span>
+                    <span class="r14">Визуализация физического пространства</span>
+                  </p>
+                  <div data-node-id="41:304" class="r71">
+                    <p data-node-id="39:108" class="r72">Можно визуально видеть расположение rack'ов, взаимодействовать с ними. Это снижает когнитивную нагрузку.</p>
+                  </div>
+                  <p data-node-id="39:109" class="r69">
+                    <span class="r13">• </span>
+                    <span class="r14">Поиск находится на видном месте на главной странице.</span>
+                  </p>
+                  <p data-node-id="39:110" class="r69">
+                    <span class="r13">• </span>
+                    <span class="r14">Визуализация данных</span>
+                  </p>
+                  <p data-node-id="39:111" class="r72">
+                    Пользователи не тонут в большой количестве букв, информации, графики, диаграммы облегчают визуально восприятие.
+                  </p>
+                  <p data-node-id="39:112" class="r69">
+                    <span class="r13">• </span>
+                    <span class="r14">Слишком много сложных термнов</span>
+                  </p>
+                  <div data-node-id="41:305" class="r70">
+                    <p data-node-id="39:113" class="r60">
+                      Device42 — очень широкий продукт: Discovery, DCIM, IPAM, ITAM, Applications и т.п.
+                    </p>
+                    <p data-node-id="39:114" class="r60">
+                      Поэтому главная навигация неизбежно сложная.
+                    </p>
+                  </div>
+                  <p data-node-id="39:115" class="r69">
+                    <span class="r13">• </span>
+                    <span class="r14">Search теперь скрыт</span>
+                  </p>
+                  <div data-node-id="41:306" class="r70">
+                    <p data-node-id="39:116" class="r60">
+                      В v15 функция поиска превратилась в иконку, которая находится в верхней части интерфейса и раскрывается по клику.
+                    </p>
+                    <p data-node-id="39:117" class="r60">
+                      + меньше визуального шума.
+                    </p>
+                    <p data-node-id="39:118" class="r60">
+                      − пользователь не сразу видит, что глобальный поиск существует.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-node-id="39:119" class="r73">
+          <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/21856.png" class="r23" loading="lazy" decoding="async">
+        </div>
+        <p data-node-id="39:120" class="r74">
+          Интерфейс главного экрана Device42
+        </p>
+      </div>
+      <div data-node-id="39:121" class="r75">
+        <div data-node-id="41:307" class="r51">
+          <h2 data-node-id="39:122" class="r9">
+            UX/UI проблемы интерфейса RackTables
+          </h2>
+          <p data-node-id="39:123" class="r76">
+            Исходя из исследований о вышеперечисленных сервисах есть несколько моментов, которые можно улучшить:
+          </p>
+        </div>
+        <div data-node-id="41:309" class="r77">
+          <p data-node-id="39:124" class="r36">
+            <span class="r13">📍 </span>
+            <span class="r14">Иллюстрации не помогают понять функцию.</span>
+          </p>
+          <div data-node-id="39:125" class="r36">
+            <p class="r19">Убираем лишние элементы, которые не дают никакой информации и применяем иконки</p>
+            <p class="r13">только там, где упрощают её восприятие или помогают очистить пространство.</p>
+          </div>
+        </div>
+        <div data-node-id="41:310" class="r77">
+          <p data-node-id="39:126" class="r36">
+            <span class="r13">📍 </span>
+            <span class="r14">Поиск находится в правом верхнем углу и не виден для пользователя.</span>
+          </p>
+          <div data-node-id="39:127" class="r36">
+            <p class="r19">Такую важную функцию стоит выдвинуть вперёд и выделить с помощью визуальной иерархии,</p>
+            <p class="r13">возможно поставить в центр, выделить определённым шрифтом/выделением/иконкой и т.п.</p>
+          </div>
+        </div>
+        <div data-node-id="41:311" class="r77">
+          <p data-node-id="39:128" class="r36">
+            <span class="r13">📍 </span>
+            <span class="r14">Слабая визуальная иерархия.</span>
+          </p>
+          <div data-node-id="39:129" class="r36">
+            <p class="r19">Все категории выглядят практически одинаковым образом.</p>
+            <p class="r13">Можно использовать группировку, размеры, отступы, карточки и т.п.</p>
+          </div>
+        </div>
+        <div data-node-id="41:312" class="r78">
+          <p data-node-id="39:130" class="r12">
+            <span class="r13">📍 </span>
+            <span class="r14">Основная идея редизайна:</span>
+          </p>
+          <p data-node-id="39:131" class="r11">
+            Перейти от навигации по техническим сущностям к навигации через задачи пользователя.
+          </p>
+        </div>
+      </div>
+      <div data-node-id="39:132" class="r79">
+        <h2 data-node-id="39:133" class="r9">
+          Что я ещё взяла бы у конкурентов?
+        </h2>
+        <div data-node-id="41:313" class="r77">
+          <p data-node-id="39:134" class="r36">
+            <span class="r13">💬 </span>
+            <span class="r14">Не терять результаты поиска</span>
+            <span class="r13"> при открытии объекта. Создавать в отдельной вкладке (?).</span>
+          </p>
+          <p data-node-id="39:135" class="r36">
+            <span class="r13">💬 </span>
+            <span class="r14">Сохранять прошлые запросы</span>
+            <span class="r13"> в поиске и возможность их удалять.</span>
+          </p>
+          <p data-node-id="39:136" class="r36">
+            <span class="r13">💬 </span>
+            <span class="r14">Advanced Search с подсказками</span>
+            <span class="r13">, не заставлять пользователя помнить синтаксис.</span>
+          </p>
+          <p data-node-id="39:137" class="r36">
+            <span class="r13">💬 Визуальная модель Rack / Room. </span>
+            <span class="r14">Показывать физическую инфраструктуру.</span>
+          </p>
+        </div>
+      </div>
+      <div data-node-id="39:138" class="r28">
+        <div data-node-id="41:314" class="r29">
+          <h2 data-node-id="39:139" class="r9">
+            Разработка UI/UX экрана интерфейса
+          </h2>
+          <p data-node-id="39:140" class="r30">
+            <span class="r80">➡️ Для начала я создала </span>
+            <span class="r81">карту с компонентами и информацией</span>
+            <span class="r80">, которые будут на главном экране, что будет внутри каждого элемента. Также приблизительный </span>
+            <span class="r81">wireframe интерфейса</span>
+            <span class="r80"> для определения основной композиции элементов, что вообще будет размещено на экране и где.</span>
+          </p>
+        </div>
+        <div data-node-id="41:315" class="r66">
+          <div data-node-id="39:141" class="r82">
+            <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/55b0a.png" class="r23" loading="lazy" decoding="async">
+          </div>
+          <p data-node-id="39:142" class="r24">
+            Карта главного экрана
+          </p>
+        </div>
+        <p data-node-id="39:143" class="r40">
+          Что уже изменилось из основных моментов?
+        </p>
+        <div data-node-id="41:316" class="r83">
+          <p data-node-id="39:144" class="r36">
+            <span class="r80">✅ </span>
+            <span class="r81">Вынесен Search</span>
+            <span class="r80"> на середину экрана на видное место для пользователя;</span>
+          </p>
+          <p data-node-id="39:145" class="r36">
+            <span class="r80">✅ Иллюстрации </span>
+            <span class="r81">заменены на иконки</span>
+            <span class="r80">, визуально поддерживают значение функции;</span>
+          </p>
+          <div data-node-id="39:146" class="r36">
+            <p class="r84">
+              <span class="r80">✅ </span>
+              <span class="r85">Взяты UX-решения из desk-исследования</span>
+              <span class="r80">: боковое меню с навигацией, показаны</span>
+            </p>
+            <p class="r80">последние действия в программе, уже на первом экране можно одним нажатием перейти к действию;</p>
+          </div>
+          <p data-node-id="39:147" class="r36">
+            <span class="r80">✅ При первом же входе будет </span>
+            <span class="r81">показана вся информация</span>
+            <span class="r80"> о количестве объектов и т.п.</span>
+          </p>
+        </div>
+        <div data-node-id="41:317" class="r66">
+          <div data-node-id="39:148" class="r86">
+            <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/db211.png" class="r23" loading="lazy" decoding="async">
+          </div>
+          <p data-node-id="39:149" class="r24">
+            Первый wireframe интерфейса
+          </p>
+        </div>
+        <div data-node-id="41:318" class="r83">
+          <p data-node-id="39:150" class="r36">
+            <span class="r80">➡️ Далее начала работу над внедрением типографики и цвета с помощью </span>
+            <span class="r81">дизайн-системы Gravity-UI.</span>
+          </p>
+          <p data-node-id="39:151" class="r36">
+            <span class="r80">✅ Были выбраны оттенки интерфейса, которые </span>
+            <span class="r81">больше соответствуют общему стилю интерфейса RackTables;</span>
+          </p>
+          <p data-node-id="39:152" class="r36">
+            <span class="r80">✅ </span>
+            <span class="r81">С помощью визуальной иерархии</span>
+            <span class="r80"> выделены главные функции, легче считывать информацию, стало быстрее ориентироваться по экрану за счёт шрифта, выделений, цвета и контрастов.</span>
+          </p>
+          <p data-node-id="39:153" class="r36">
+            <span class="r81">НО </span>
+            <span class="r80">UI интерфейса все ещё выглядит недостаточно выразительным и слабым, не хватает контраста</span>
+          </p>
+        </div>
+        <div data-node-id="41:319" class="r66">
+          <div data-node-id="39:154" class="r86">
+            <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/e327e.png" class="r23" loading="lazy" decoding="async">
+          </div>
+          <p data-node-id="39:155" class="r24">
+            Один из первых вариантов
+          </p>
+        </div>
+        <div data-node-id="41:320" class="r87">
+          <p data-node-id="39:156" class="r36">
+            Следующие шаги:
+          </p>
+          <p data-node-id="39:157" class="r36">
+            ✅ Добавила контраст в экран с помощью тёмной темы бокового меню;
+          </p>
+          <p data-node-id="39:158" class="r36">
+            ✅ Доработала и подобрала иконки в соответствии с функциями;
+          </p>
+        </div>
+        <div data-node-id="41:321" class="r66">
+          <div data-node-id="39:159" class="r88">
+            <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/72011.png" class="r23" loading="lazy" decoding="async">
+          </div>
+          <p data-node-id="39:160" class="r24">
+            Вариант с тёмной темой бокового меню
+          </p>
+        </div>
+        <div data-node-id="39:161" class="r89">
+          <p class="r84">
+            <span class="r80">✅ Добавила в поиск </span>
+            <span class="r85">раскрывающийся список с последними результатами поиска.</span>
+          </p>
+          <p class="r90">
+            <span class="r80">Также при вводе в поиск будет выпадать </span>
+            <span class="r85">поле с подсказками</span>
+            <span class="r80">;</span>
+          </p>
+        </div>
+        <div data-node-id="41:324" class="r51">
+          <div data-node-id="41:322" class="r66">
+            <div data-node-id="39:162" class="r22">
+              <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/a59ed.png" class="r23" loading="lazy" decoding="async">
+            </div>
+            <p data-node-id="39:163" class="r24">
+              Экран прототип с показом полей поиска
+            </p>
+          </div>
+          <div data-node-id="41:323" class="r91">
+            <p data-node-id="39:164" class="r46">
+              Какие сценарии возможны дальше после перехода на главный экран?
+            </p>
+            <div data-node-id="41:325" class="r66">
+              <div data-node-id="39:165" class="r92">
+                <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/9b1a8.png" class="r23" loading="lazy" decoding="async">
+              </div>
+              <p data-node-id="39:166" class="r24">
+                Основной user-flow интерфейса
+              </p>
+            </div>
+          </div>
+        </div>
+        <div data-node-id="41:326" class="r71">
+          <div data-node-id="41:328" class="r66">
+            <p data-node-id="39:167" class="r40">
+              Примерная разработка прототипов в будущем, возможные сценарии
+            </p>
+            <div data-node-id="39:168" class="r93">
+              <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/b5ce1.png" class="r23" loading="lazy" decoding="async">
+            </div>
+          </div>
+        </div>
+        <div data-node-id="39:169" class="r94">
+          <a href="https://kinescope.io/3qghj6GHtz1XPS6htdDYL7/plxeyMOt" data-node-id="39:170" target="_blank" class="r95" rel="noopener noreferrer">
+            <p class="r96">▶ Смотреть видео</p>
+          </a>
+          <a href="https://kinescope.io/3qghj6GHtz1XPS6htdDYL7/plxeyMOt" data-node-id="39:171" target="_blank" class="r97" rel="noopener noreferrer">
+            <p class="r96">https://kinescope.io/3qghj6GHtz1XPS6htdDYL7/plxeyMOt</p>
+          </a>
+        </div>
+        <p data-node-id="39:172" class="r2">
+          Демо-версия интерфейса (вайбкодинг)
+        </p>
+      </div>
+      <div data-node-id="39:173" class="r98">
+        <h2 data-node-id="39:174" class="r9">
+          Что можно было бы доработать в будущем?
+        </h2>
+        <div data-node-id="41:327" class="r99">
+          <p data-node-id="39:175" class="r36">
+            ✍️ Dashboard widgets, пользователь видит состояние инфраструктуры сразу.
+          </p>
+          <p data-node-id="39:176" class="r36">
+            ✍️ Customizable Dashboad, разные специалисты получают разные стартовые экраны.
+          </p>
+          <p data-node-id="39:177" class="r36">
+            ✍️ Добавить Breadcrumbs, чтобы можно легче возвращаться к прошлым разделам
+          </p>
+        </div>
+      </div>
+    </div><div data-node-id="47:3" class="r0 case-mobile">
+      <div data-node-id="47:4" class="r100">
+        <a data-node-id="47:5" class="r101" href="index.html#works">
+          ← К работам
+        </a>
+        <div data-node-id="47:6" class="r3">
+          <p data-node-id="I47:6;36:3" class="r4">
+            UX / UI · Кейс
+          </p>
+        </div>
+        <div data-node-id="47:7" class="r102">
+          <h1 data-node-id="47:8" class="r103">
+            Дизайн интерфейса RackTables
+          </h1>
+          <a data-node-id="47:9" class="r104" href="https://www.figma.com/design/73gWIQmLJjrZSkfqI5qJRt/?node-id=35-2" target="_blank" rel="noopener noreferrer">
+            Ссылка на файлы в Figma:
+          </a>
+        </div>
+      </div>
+      <div data-node-id="47:10" class="r105">
+        <h2 data-node-id="47:11" class="r106">
+          Этапы работы:
+        </h2>
+        <div data-node-id="47:12" class="r107">
+          <p data-node-id="47:13" class="r108">
+            1. Исследование внутреннего устройства сервиса
+          </p>
+          <p data-node-id="47:14" class="r108">
+            2. Провела desk-исследовние, сделала выводы и гипотезы
+          </p>
+          <p data-node-id="47:15" class="r108">
+            3. Wireframe экрана, учитывая UX-проблемы старого интерфейса
+          </p>
+          <p data-node-id="47:16" class="r108">
+            4. C помощью дизайн-системы созданы первые варианты интерфейса
+          </p>
+          <p data-node-id="47:17" class="r108">
+            5. Создана карта user-flow главного экрана
+          </p>
+          <p data-node-id="47:18" class="r109">
+            <span class="r110">6. Возможные сценарии при использовании интерфейса в будущем + </span>
+            <span class="r111">видео</span>
+          </p>
+          <p data-node-id="47:19" class="r108">
+            7. Разработка и улучшения в дальнейшем
+          </p>
+        </div>
+      </div>
+      <div data-node-id="47:20" class="r112">
+        <h2 data-node-id="47:21" class="r113">
+          Главная задача:
+        </h2>
+        <div data-node-id="47:22" class="r114">
+          <div data-node-id="47:23" class="r115">
+            <p class="r116">Переработать и разработать такой дизайн интерфейса, который бы</p>
+            <p class="r116">помогал начать быстрее работу пользователю и перейти к активному действию.</p>
+            <p class="r117">Поменять подход к использованию самого экрана.</p>
+          </div>
+          <p data-node-id="47:24" class="r118">
+            Я исследовала структуру существующего интерфейса RackTables, выявила основные UX и UI-проблемы и переработала информационную архитектуру, навигацию и ключевые пользовательские сценарии, чтобы ускорить работу специалистов.
+          </p>
+        </div>
+        <div data-node-id="47:25" class="r119">
+          <div data-node-id="47:26" class="r120">
+            <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/a59ed.png" class="r23" loading="lazy" decoding="async">
+          </div>
+          <p data-node-id="47:27" class="r121">
+            Новый интерфейс RackTables
+          </p>
+        </div>
+      </div>
+      <div data-node-id="47:28" class="r122">
+        <h2 data-node-id="47:29" class="r123">
+          RackTables
+        </h2>
+        <div data-node-id="47:30" class="r124">
+          <div data-node-id="47:31" class="r124">
+            <p data-node-id="47:32" class="r125">
+              это веб инструмент со всей компьютерной инфраструктурой компании.
+            </p>
+            <div data-node-id="47:33" class="r126">
+              <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/8eb26.png" class="r23" loading="lazy" decoding="async">
+            </div>
+          </div>
+          <p data-node-id="47:34" class="r127">
+            Интерфейс RackTables, старый вариант
+          </p>
+        </div>
+      </div>
+      <div data-node-id="47:35" class="r128">
+        <div data-node-id="47:36" class="r129">
+          <div data-node-id="47:37" class="r130">
+            <p class="r131">Общая информация</p>
+            <p class="r132">о RackTables</p>
+          </div>
+          <div data-node-id="47:38" class="r133">
+            <p class="r19">Перед началом работы я сначала собрала всю главную информацию об инструменте,</p>
+            <p class="r13">чтобы понять для чего он, для кого и из чего состоит</p>
+          </div>
+        </div>
+        <div data-node-id="47:39" class="r134">
+          <p data-node-id="47:40" class="r135">
+            Основные пользователи:
+          </p>
+          <div data-node-id="47:41" class="r136">
+            <p class="r19">системные администраторы, DevOps-инженеры, сетевые инженеры</p>
+            <p class="r13">и специалисты, отвечающие за IT-инфраструктуру.</p>
+          </div>
+        </div>
+        <div data-node-id="47:42" class="r137">
+          <p data-node-id="47:43" class="r135">
+            Задачи пользователей:
+          </p>
+          <div data-node-id="47:44" class="r138">
+            <p data-node-id="47:45" class="r139">
+              • найти конкретный сервер или оборудование;
+            </p>
+            <p data-node-id="47:46" class="r139">
+              • определить физическое расположение устройства;
+            </p>
+            <p data-node-id="47:47" class="r139">
+              • проверить IP-адрес;
+            </p>
+            <p data-node-id="47:48" class="r139">
+              • понять, к чему подключено устройство;
+            </p>
+            <p data-node-id="47:49" class="r139">
+              • найти свободный IP-адрес;
+            </p>
+            <p data-node-id="47:50" class="r139">
+              • посмотреть содержимое серверного шкафа;
+            </p>
+            <p data-node-id="47:51" class="r139">
+              • добавить или изменить информацию об оборудовании;
+            </p>
+            <p data-node-id="47:52" class="r139">
+              • проверить историю изменений;
+            </p>
+            <p data-node-id="47:53" class="r139">
+              • найти связанную документацию.
+            </p>
+          </div>
+        </div>
+        <div data-node-id="47:54" class="r140">
+          <p data-node-id="47:55" class="r141">
+            Главная задача интерфейса:
+          </p>
+          <p data-node-id="47:56" class="r142">
+            быстро предоставить специалисту нужную информацию о сложной IT-инфраструктуре.
+          </p>
+        </div>
+        <div data-node-id="47:57" class="r124">
+          <p data-node-id="47:58" class="r143">
+            Что содержит внутри себя каждый раздел:
+          </p>
+          <div data-node-id="47:59" class="r144">
+            <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/4b5ef.png" class="r23" loading="lazy" decoding="async">
+          </div>
+        </div>
+        <div data-node-id="47:60" class="r145">
+          <p data-node-id="47:61" class="r146">
+            Разделим их на основные категории:
+          </p>
+          <div data-node-id="47:62" class="r147">
+            <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/a30b6.png" class="r23" loading="lazy" decoding="async">
+          </div>
+        </div>
+        <div data-node-id="47:63" class="r148">
+          <p class="r19">Так как у нас нет задачи спроектировать весь сервис, а только переработать главный экран, то я решила начать</p>
+          <p class="r13">с desk-исследования, чтобы понять, какие похожие сервисы есть на рынке, что они предлагают пользователям, и какие решения уже существуют.</p>
+        </div>
+      </div>
+      <div data-node-id="47:64" class="r128">
+        <div data-node-id="47:65" class="r149">
+          <h2 data-node-id="47:66" class="r150">
+            Desk-исследование
+          </h2>
+          <p data-node-id="47:67" class="r151">
+            Для исследования я взяла основные интерфейсы инструментов NetBox и Device 42.
+          </p>
+        </div>
+        <div data-node-id="47:68" class="r124">
+          <p data-node-id="47:69" class="r152">
+            Основная структура экранов:
+          </p>
+          <div data-node-id="47:70" class="r153">
+            <div class="r48">
+              <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/429be.png" class="r49" loading="lazy" decoding="async">
+            </div>
+          </div>
+        </div>
+        <div data-node-id="47:71" class="r154">
+          <p data-node-id="47:72" class="r139">
+            • Оба сервиса сразу делится основной информацией, статистикой, dashboards и т.п. на главном экране
+          </p>
+          <p data-node-id="47:73" class="r139">
+            • В отдельную навигацию наверх или слева помещают разделы, по которым можно перейти для поиска более подробной информации, серверов, соединений и т.п.
+          </p>
+          <p data-node-id="47:74" class="r155">
+            • NetBox отличается тем, что сразу предоставляет журнал изменений на Home page
+          </p>
+        </div>
+        <div data-node-id="47:75" class="r156">
+          <div data-node-id="47:76" class="r157">
+            <div data-node-id="47:77" class="r124">
+              <div data-node-id="47:78" class="r158">
+                <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/471e5.png" class="r23" loading="lazy" decoding="async">
+              </div>
+              <p data-node-id="47:79" class="r127">
+                Интерфейс главного экрана NetBox
+              </p>
+            </div>
+            <p data-node-id="47:80" class="r159">
+              Отличия в использовании UI и UX-дизайна:
+            </p>
+          </div>
+          <div data-node-id="47:81" class="r160">
+            <div data-node-id="47:82" class="r161">
+              <p data-node-id="47:83" class="r162">
+                NetBox
+              </p>
+              <p data-node-id="47:84" class="r163">
+                <span class="r110">• </span>
+                <span class="r111">NetBox не строит навигацию вокруг больших иллюстраций, как RackTables.</span>
+              </p>
+              <div data-node-id="47:85" class="r164">
+                <p data-node-id="47:86" class="r139">
+                  Используются:
+                </p>
+                <p data-node-id="47:87" class="r139">
+                  • текстовые названия;
+                </p>
+                <p data-node-id="47:88" class="r139">
+                  • небольшие UI-иконки;
+                </p>
+                <p data-node-id="47:89" class="r139">
+                  • визуальные элементы внутри интерфейса;
+                </p>
+                <p data-node-id="47:90" class="r139">
+                  • цветовые состояния.
+                </p>
+              </div>
+              <p data-node-id="47:91" class="r165">
+                Для технического продукта текст является основным носителем смысла, а иконка выполняет вспомогательную функцию. Также есть расширенные фильтры и сохранение часто используемых фильтров.
+              </p>
+              <p data-node-id="47:92" class="r163">
+                <span class="r110">• </span>
+                <span class="r111">Иерархия</span>
+              </p>
+              <div data-node-id="47:93" class="r164">
+                <p data-node-id="47:94" class="r139">
+                  1. Global navigation → левая колонка
+                </p>
+                <p data-node-id="47:95" class="r139">
+                  2. Dashboard widgets → крупные смысловые блоки
+                </p>
+                <p data-node-id="47:96" class="r139">
+                  3. Entity → Sites / Devices / IP Addresses
+                </p>
+                <p data-node-id="47:97" class="r139">
+                  4. Count → количество объектов
+                </p>
+                <p data-node-id="47:98" class="r139">
+                  То есть пользователь может быстро просканировать:
+                </p>
+                <p data-node-id="47:99" class="r139">
+                  IPAM → IP Addresses → 180
+                </p>
+              </div>
+              <p data-node-id="47:100" class="r163">
+                <span class="r110">• </span>
+                <span class="r111">Dashboard можно перестраивать: </span>
+                <span class="r110">пользователь может менять размер, положение и набор виджетов.</span>
+              </p>
+              <div data-node-id="47:101" class="r166">
+                <p data-node-id="47:102" class="r167">
+                  <span class="r110">• </span>
+                  <span class="r111">Search в NetBox</span>
+                </p>
+                <p data-node-id="47:103" class="r168">
+                  Поиск находится в верхней части приложения.
+                </p>
+              </div>
+              <div data-node-id="47:104" class="r169">
+                <p data-node-id="47:105" class="r162">
+                  Минусы:
+                </p>
+                <div data-node-id="47:106" class="r166">
+                  <div data-node-id="47:107" class="r170">
+                    <p data-node-id="47:108" class="r167">
+                      <span class="r110">• </span>
+                      <span class="r111">Высокий порог входа</span>
+                    </p>
+                    <p data-node-id="47:109" class="r168">
+                      Главный экран нагружен терминами (что неизбежно):
+                    </p>
+                  </div>
+                  <div data-node-id="47:110" class="r170">
+                    <p data-node-id="47:111" class="r167">
+                      <span class="r110">• </span>
+                      <span class="r111">Dashboard может быть перегружен</span>
+                    </p>
+                    <p data-node-id="47:112" class="r168">
+                      Для нового пользователя проблема: «А на что вообще смотреть?»
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-node-id="47:113" class="r171">
+              <div data-node-id="47:114" class="r124">
+                <p data-node-id="47:115" class="r172">
+                  Device42
+                </p>
+                <div data-node-id="47:116" class="r124">
+                  <p data-node-id="47:117" class="r173">
+                    <span class="r110">• </span>
+                    <span class="r111">Более сильный акцент на визуальном минимализме.</span>
+                  </p>
+                  <div data-node-id="47:118" class="r174">
+                    <p data-node-id="47:119" class="r139">
+                      Плюс акцент идёт сразу на данных, которые показываются на первом экране, а самая нужная информация, с помощью визуализации, даёт представление пользователю о том, что у нас есть сейчас.
+                    </p>
+                    <p data-node-id="47:120" class="r139">
+                      Navigation → Dashboard → Data
+                    </p>
+                  </div>
+                  <p data-node-id="47:121" class="r173">
+                    <span class="r110">• </span>
+                    <span class="r111">Визуализация физического пространства</span>
+                  </p>
+                  <div data-node-id="47:122" class="r175">
+                    <p data-node-id="47:123" class="r125">Можно визуально видеть расположение rack'ов, взаимодействовать с ними. Это снижает когнитивную нагрузку.</p>
+                  </div>
+                  <p data-node-id="47:124" class="r173">
+                    <span class="r110">• </span>
+                    <span class="r111">Поиск находится на видном месте на главной странице.</span>
+                  </p>
+                  <p data-node-id="47:125" class="r173">
+                    <span class="r110">• </span>
+                    <span class="r111">Визуализация данных</span>
+                  </p>
+                  <p data-node-id="47:126" class="r125">
+                    Пользователи не тонут в большой количестве букв, информации, графики, диаграммы облегчают визуально восприятие.
+                  </p>
+                  <p data-node-id="47:127" class="r173">
+                    <span class="r110">• </span>
+                    <span class="r111">Слишком много сложных термнов</span>
+                  </p>
+                  <div data-node-id="47:128" class="r174">
+                    <p data-node-id="47:129" class="r139">
+                      Device42 — очень широкий продукт: Discovery, DCIM, IPAM, ITAM, Applications и т.п.
+                    </p>
+                    <p data-node-id="47:130" class="r139">
+                      Поэтому главная навигация неизбежно сложная.
+                    </p>
+                  </div>
+                  <p data-node-id="47:131" class="r173">
+                    <span class="r110">• </span>
+                    <span class="r111">Search теперь скрыт</span>
+                  </p>
+                  <div data-node-id="47:132" class="r174">
+                    <p data-node-id="47:133" class="r139">
+                      В v15 функция поиска превратилась в иконку, которая находится в верхней части интерфейса и раскрывается по клику.
+                    </p>
+                    <p data-node-id="47:134" class="r139">
+                      + меньше визуального шума.
+                    </p>
+                    <p data-node-id="47:135" class="r139">
+                      − пользователь не сразу видит, что глобальный поиск существует.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-node-id="47:136" class="r176">
+          <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/21856.png" class="r23" loading="lazy" decoding="async">
+        </div>
+        <p data-node-id="47:137" class="r177">
+          Интерфейс главного экрана Device42
+        </p>
+      </div>
+      <div data-node-id="47:138" class="r178">
+        <div data-node-id="47:139" class="r156">
+          <h2 data-node-id="47:140" class="r150">
+            UX/UI проблемы интерфейса RackTables
+          </h2>
+          <p data-node-id="47:141" class="r165">
+            Исходя из исследований о вышеперечисленных сервисах есть несколько моментов, которые можно улучшить:
+          </p>
+        </div>
+        <div data-node-id="47:142" class="r179">
+          <p data-node-id="47:143" class="r180">
+            <span class="r110">📍 </span>
+            <span class="r111">Иллюстрации не помогают понять функцию.</span>
+          </p>
+          <div data-node-id="47:144" class="r181">
+            <p class="r19">Убираем лишние элементы, которые не дают никакой информации и применяем иконки</p>
+            <p class="r13">только там, где упрощают её восприятие или помогают очистить пространство.</p>
+          </div>
+        </div>
+        <div data-node-id="47:145" class="r179">
+          <p data-node-id="47:146" class="r180">
+            <span class="r110">📍 </span>
+            <span class="r111">Поиск находится в правом верхнем углу и не виден для пользователя.</span>
+          </p>
+          <div data-node-id="47:147" class="r181">
+            <p class="r19">Такую важную функцию стоит выдвинуть вперёд и выделить с помощью визуальной иерархии,</p>
+            <p class="r13">возможно поставить в центр, выделить определённым шрифтом/выделением/иконкой и т.п.</p>
+          </div>
+        </div>
+        <div data-node-id="47:148" class="r179">
+          <p data-node-id="47:149" class="r180">
+            <span class="r110">📍 </span>
+            <span class="r111">Слабая визуальная иерархия.</span>
+          </p>
+          <div data-node-id="47:150" class="r181">
+            <p class="r19">Все категории выглядят практически одинаковым образом.</p>
+            <p class="r13">Можно использовать группировку, размеры, отступы, карточки и т.п.</p>
+          </div>
+        </div>
+        <div data-node-id="47:151" class="r182">
+          <p data-node-id="47:152" class="r167">
+            <span class="r110">📍 </span>
+            <span class="r111">Основная идея редизайна:</span>
+          </p>
+          <p data-node-id="47:153" class="r168">
+            Перейти от навигации по техническим сущностям к навигации через задачи пользователя.
+          </p>
+        </div>
+      </div>
+      <div data-node-id="47:154" class="r183">
+        <h2 data-node-id="47:155" class="r150">
+          Что я ещё взяла бы у конкурентов?
+        </h2>
+        <div data-node-id="47:156" class="r184">
+          <p data-node-id="47:157" class="r139">
+            <span class="r110">💬 </span>
+            <span class="r111">Не терять результаты поиска</span>
+            <span class="r110"> при открытии объекта. Создавать в отдельной вкладке (?).</span>
+          </p>
+          <p data-node-id="47:158" class="r139">
+            <span class="r110">💬 </span>
+            <span class="r111">Сохранять прошлые запросы</span>
+            <span class="r110"> в поиске и возможность их удалять.</span>
+          </p>
+          <p data-node-id="47:159" class="r139">
+            <span class="r110">💬 </span>
+            <span class="r111">Advanced Search с подсказками</span>
+            <span class="r110">, не заставлять пользователя помнить синтаксис.</span>
+          </p>
+          <p data-node-id="47:160" class="r139">
+            <span class="r110">💬 Визуальная модель Rack / Room. </span>
+            <span class="r111">Показывать физическую инфраструктуру.</span>
+          </p>
+        </div>
+      </div>
+      <div data-node-id="47:161" class="r128">
+        <div data-node-id="47:162" class="r149">
+          <h2 data-node-id="47:163" class="r150">
+            Разработка UI/UX экрана интерфейса
+          </h2>
+          <p data-node-id="47:164" class="r163">
+            <span class="r185">➡️ Для начала я создала </span>
+            <span class="r186">карту с компонентами и информацией</span>
+            <span class="r185">, которые будут на главном экране, что будет внутри каждого элемента. Также приблизительный </span>
+            <span class="r186">wireframe интерфейса</span>
+            <span class="r185"> для определения основной композиции элементов, что вообще будет размещено на экране и где.</span>
+          </p>
+        </div>
+        <div data-node-id="47:165" class="r170">
+          <div data-node-id="47:166" class="r187">
+            <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/55b0a.png" class="r23" loading="lazy" decoding="async">
+          </div>
+          <p data-node-id="47:167" class="r127">
+            Карта главного экрана
+          </p>
+        </div>
+        <p data-node-id="47:168" class="r143">
+          Что уже изменилось из основных моментов?
+        </p>
+        <div data-node-id="47:169" class="r188">
+          <p data-node-id="47:170" class="r139">
+            <span class="r185">✅ </span>
+            <span class="r186">Вынесен Search</span>
+            <span class="r185"> на середину экрана на видное место для пользователя;</span>
+          </p>
+          <p data-node-id="47:171" class="r139">
+            <span class="r185">✅ Иллюстрации </span>
+            <span class="r186">заменены на иконки</span>
+            <span class="r185">, визуально поддерживают значение функции;</span>
+          </p>
+          <div data-node-id="47:172" class="r139">
+            <p class="r189">
+              <span class="r80">✅ </span>
+              <span class="r85">Взяты UX-решения из desk-исследования</span>
+              <span class="r80">: боковое меню с навигацией, показаны</span>
+            </p>
+            <p class="r185">последние действия в программе, уже на первом экране можно одним нажатием перейти к действию;</p>
+          </div>
+          <p data-node-id="47:173" class="r139">
+            <span class="r185">✅ При первом же входе будет </span>
+            <span class="r186">показана вся информация</span>
+            <span class="r185"> о количестве объектов и т.п.</span>
+          </p>
+        </div>
+        <div data-node-id="47:174" class="r170">
+          <div data-node-id="47:175" class="r190">
+            <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/db211.png" class="r23" loading="lazy" decoding="async">
+          </div>
+          <p data-node-id="47:176" class="r127">
+            Первый wireframe интерфейса
+          </p>
+        </div>
+        <div data-node-id="47:177" class="r188">
+          <p data-node-id="47:178" class="r139">
+            <span class="r185">➡️ Далее начала работу над внедрением типографики и цвета с помощью </span>
+            <span class="r186">дизайн-системы Gravity-UI.</span>
+          </p>
+          <p data-node-id="47:179" class="r139">
+            <span class="r185">✅ Были выбраны оттенки интерфейса, которые </span>
+            <span class="r186">больше соответствуют общему стилю интерфейса RackTables;</span>
+          </p>
+          <p data-node-id="47:180" class="r139">
+            <span class="r185">✅ </span>
+            <span class="r186">С помощью визуальной иерархии</span>
+            <span class="r185"> выделены главные функции, легче считывать информацию, стало быстрее ориентироваться по экрану за счёт шрифта, выделений, цвета и контрастов.</span>
+          </p>
+          <p data-node-id="47:181" class="r139">
+            <span class="r186">НО </span>
+            <span class="r185">UI интерфейса все ещё выглядит недостаточно выразительным и слабым, не хватает контраста</span>
+          </p>
+        </div>
+        <div data-node-id="47:182" class="r170">
+          <div data-node-id="47:183" class="r190">
+            <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/e327e.png" class="r23" loading="lazy" decoding="async">
+          </div>
+          <p data-node-id="47:184" class="r127">
+            Один из первых вариантов
+          </p>
+        </div>
+        <div data-node-id="47:185" class="r191">
+          <p data-node-id="47:186" class="r192">
+            Следующие шаги:
+          </p>
+          <p data-node-id="47:187" class="r192">
+            ✅ Добавила контраст в экран с помощью тёмной темы бокового меню;
+          </p>
+          <div data-node-id="47:188" class="r193">
+            <p class="r194">✅ Доработала и подобрала иконки</p>
+            <p class="r80">в соответствии с функциями;</p>
+          </div>
+        </div>
+        <div data-node-id="47:189" class="r170">
+          <div data-node-id="47:190" class="r195">
+            <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/72011.png" class="r23" loading="lazy" decoding="async">
+          </div>
+          <p data-node-id="47:191" class="r127">
+            Вариант с тёмной темой бокового меню
+          </p>
+        </div>
+        <div data-node-id="47:192" class="r173">
+          <p class="r189">
+            <span class="r80">✅ Добавила в поиск </span>
+            <span class="r85">раскрывающийся список с последними результатами поиска.</span>
+          </p>
+          <p class="r196">
+            <span class="r80">Также при вводе в поиск будет выпадать </span>
+            <span class="r85">поле с подсказками</span>
+            <span class="r80">;</span>
+          </p>
+        </div>
+        <div data-node-id="47:193" class="r156">
+          <div data-node-id="47:194" class="r170">
+            <div data-node-id="47:195" class="r197">
+              <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/a59ed.png" class="r23" loading="lazy" decoding="async">
+            </div>
+            <p data-node-id="47:196" class="r127">
+              Экран прототип с показом полей поиска
+            </p>
+          </div>
+          <div data-node-id="47:197" class="r198">
+            <p data-node-id="47:198" class="r152">
+              Какие сценарии возможны дальше после перехода на главный экран?
+            </p>
+            <div data-node-id="47:199" class="r170">
+              <div data-node-id="47:200" class="r199">
+                <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/9b1a8.png" class="r23" loading="lazy" decoding="async">
+              </div>
+              <p data-node-id="47:201" class="r127">
+                Основной user-flow интерфейса
+              </p>
+            </div>
+          </div>
+        </div>
+        <div data-node-id="47:202" class="r175">
+          <div data-node-id="47:203" class="r170">
+            <div data-node-id="47:204" class="r200">
+              <p class="r19">Примерная разработка прототипов</p>
+              <p class="r13">в будущем, возможные сценарии</p>
+            </div>
+            <div data-node-id="47:205" class="r201">
+              <img alt="Интерфейс и материалы исследования RackTables" src="assets/racktables/b5ce1.png" class="r23" loading="lazy" decoding="async">
+            </div>
+          </div>
+        </div>
+        <div data-node-id="47:206" class="r202">
+          <a href="https://kinescope.io/3qghj6GHtz1XPS6htdDYL7/plxeyMOt" data-node-id="47:207" target="_blank" class="r203" rel="noopener noreferrer">
+            <p class="r96">▶ Смотреть видео</p>
+          </a>
+          <a href="https://kinescope.io/3qghj6GHtz1XPS6htdDYL7/plxeyMOt" data-node-id="47:208" target="_blank" class="r204" rel="noopener noreferrer">
+            <p class="r96">https://kinescope.io/3qghj6GHtz1XPS6htdDYL7/plxeyMOt</p>
+          </a>
+        </div>
+        <p data-node-id="47:209" class="r205">
+          Демо-версия интерфейса (вайбкодинг)
+        </p>
+      </div>
+      <div data-node-id="47:210" class="r206">
+        <h2 data-node-id="47:211" class="r150">
+          Что можно было бы доработать в будущем?
+        </h2>
+        <div data-node-id="47:212" class="r207">
+          <p data-node-id="47:213" class="r139">
+            ✍️ Dashboard widgets, пользователь видит состояние инфраструктуры сразу.
+          </p>
+          <p data-node-id="47:214" class="r139">
+            ✍️ Customizable Dashboad, разные специалисты получают разные стартовые экраны.
+          </p>
+          <p data-node-id="47:215" class="r139">
+            ✍️ Добавить Breadcrumbs, чтобы можно легче возвращаться к прошлым разделам
+          </p>
+        </div>
+      </div>
+    </div></main><footer><a href="index.html#works">← К работам</a><a href="mailto:gorodeckayaanastasiya@gmail.com">Обсудить проект ↗</a></footer></body></html>
