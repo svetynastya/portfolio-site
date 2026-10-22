@@ -35,3 +35,7 @@
   .hero .intro h1{position:absolute;top:calc(215.689 * var(--u));left:0;width:100%;max-width:none;height:calc(86.396 * var(--u));margin:0;font-size:calc(40 * var(--u));line-height:calc(46 * var(--u));letter-spacing:calc(-.8 * var(--u))}
   .hero .role{position:absolute;top:calc(326.086 * var(--u));left:50%;transform:translateX(-50%);display:flex;align-items:center;justify-content:center;width:calc(122.005 * var(--u));height:calc(34.367 * var(--u));padding:0;font-size:calc(12 * var(--u));font-weight:400;line-height:calc(16.8 * var(--u));letter-spacing:calc(-.12 * var(--u));white-space:nowrap}
 }
+
+/* Project progress label */
+.project-labels{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:20px}.project-labels .category{margin-bottom:0}.project-status{display:inline-flex;align-items:center;padding:4px 12px;border:1px solid var(--accent);border-radius:999px;background:var(--accent);color:#121212;font-size:12px;line-height:14px;white-space:nowrap}
+@media(max-width:640px){.project-labels{margin-bottom:16px}}
