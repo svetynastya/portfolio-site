@@ -39,3 +39,31 @@
 /* Project progress label */
 .project-labels{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:20px}.project-labels .category{margin-bottom:0}.project-status{display:inline-flex;align-items:center;padding:4px 12px;border:1px solid var(--accent);border-radius:999px;background:var(--accent);color:#121212;font-size:12px;line-height:14px;white-space:nowrap}
 @media(max-width:640px){.project-labels{margin-bottom:16px}}
+
+/* Updated portfolio hero — Figma desktop 1:158 and mobile 17:9. */
+.hero .intro{pointer-events:none}
+.hero .role{pointer-events:auto}
+.roles{display:flex;justify-content:center;gap:17.13px}
+.hero .role{width:133.3px;height:34px;padding:0;display:inline-flex;align-items:center;justify-content:center;white-space:nowrap}
+.hero .skills span,.hero .role{transition:translate .4s var(--ease),rotate .4s var(--ease),box-shadow .4s var(--ease)}
+.hero .skills span:hover{transform:none}
+@media(hover:hover){.hero .skills span:hover,.hero .role:hover{translate:0 -5px;rotate:-3deg;box-shadow:0 6px 15px #eb8d0129}}
+@media(min-width:641px){
+ .hero .skills span:first-child{display:none}
+ .hero .skills span:nth-child(2){left:8.7602%;top:11.7113%}
+ .hero .skills span:nth-child(8){left:77.1437%;top:79%}
+ .hero .skills span:nth-child(11){left:80.6083%;top:52.5%}
+ .hero .skills span:nth-child(13){left:65.4146%;top:23.375%}
+}
+@media(max-width:640px){
+ .hero .skills span.design-system{display:none}
+ .hero .intro{top:calc(88.84 * var(--u));height:calc(402.9 * var(--u))}
+ .hero .portrait{top:0}
+ .hero .intro h1{top:calc(207.142 * var(--u))}
+ .roles{position:absolute;top:calc(313.538 * var(--u));left:0;width:100%;display:flex;flex-direction:column;align-items:center;gap:calc(20 * var(--u))}
+ .hero .roles .role{position:static;transform:none;width:calc(122.005 * var(--u));height:calc(34.367 * var(--u));flex-shrink:0}
+ .hero .roles .role-ui{width:calc(133.3 * var(--u));height:calc(34 * var(--u));font-size:calc(14 * var(--u))}
+}
+@media(prefers-reduced-motion:reduce){.hero .skills span:hover,.hero .role:hover{translate:none;rotate:none}}
+
+@media(min-width:641px){.hero .skills span.design-system{width:110.313px;padding-inline:4px}}
