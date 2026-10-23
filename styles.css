@@ -67,3 +67,18 @@
 @media(prefers-reduced-motion:reduce){.hero .skills span:hover,.hero .role:hover{translate:none;rotate:none}}
 
 @media(min-width:641px){.hero .skills span.design-system{width:110.313px;padding-inline:4px}}
+
+@media(max-width:380px){header{padding-inline:12px;gap:8px}header .brand{font-size:10px}header nav{gap:10px;font-size:11px}}
+
+/* Mobile hero positions from updated Figma 17:9. */
+@media(max-width:640px){
+ .hero .skills span:nth-child(1){display:none}
+ .hero .skills span:nth-child(5){--mx:25.18;--my:449.72}
+ .hero .skills span:nth-child(6){--mx:348.75;--my:330.44}
+ .hero .skills span:nth-child(10){--mx:16;--my:529.66}
+ .hero .skills span:nth-child(11){--mx:16;--my:330.44}
+ .hero .skills span:nth-child(12){--mx:38.92;--my:98.07}
+ .hero .intro{top:calc(87.457 * var(--u))}
+ .hero .roles .role-ui{width:calc(112 * var(--u));height:calc(31 * var(--u));font-size:calc(12 * var(--u))}
+ .hero .roles .role-web{width:calc(102 * var(--u));height:calc(30 * var(--u))}
+}
