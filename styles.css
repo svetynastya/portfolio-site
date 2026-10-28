@@ -70,15 +70,23 @@
 
 @media(max-width:380px){header{padding-inline:12px;gap:8px}header .brand{font-size:10px}header nav{gap:10px;font-size:11px}}
 
-/* Mobile hero positions from updated Figma 17:9. */
+/* Mobile composition — Figma 17:9, 28 October. */
 @media(max-width:640px){
  .hero .skills span:nth-child(1){display:none}
- .hero .skills span:nth-child(5){--mx:25.18;--my:449.72}
- .hero .skills span:nth-child(6){--mx:348.75;--my:330.44}
+ .hero .skills span:nth-child(3){--mx:264.39;--my:78.67}
+ .hero .skills span:nth-child(4){--my:146.11}
+ .hero .skills span:nth-child(5){--mx:25.18;--my:439.72}
+ .hero .skills span:nth-child(6){--mx:348.75;--my:310.44}
+ .hero .skills span:nth-child(7){--my:441.3}
+ .hero .skills span:nth-child(8){--mx:317.95;--my:223.07}
+ .hero .skills span:nth-child(9){--my:143.63}
  .hero .skills span:nth-child(10){--mx:16;--my:529.66}
- .hero .skills span:nth-child(11){--mx:16;--my:330.44}
- .hero .skills span:nth-child(12){--mx:38.92;--my:98.07}
- .hero .intro{top:calc(87.457 * var(--u))}
- .hero .roles .role-ui{width:calc(112 * var(--u));height:calc(31 * var(--u));font-size:calc(12 * var(--u))}
- .hero .roles .role-web{width:calc(102 * var(--u));height:calc(30 * var(--u))}
+ .hero .skills span:nth-child(11){--mx:16;--my:310.44}
+ .hero .skills span:nth-child(12){--mx:35.18;--my:77.88}
+ .hero .skills span:nth-child(13){--my:217.93}
+ .hero .intro{top:calc(100.957 * var(--u))}
+ .hero .intro h1{top:calc(205.142 * var(--u))}
+ .hero .roles{top:calc(309.538 * var(--u));gap:calc(8 * var(--u))}
+ .hero .roles .role-ui{width:calc(112 * var(--u));height:calc(25 * var(--u));font-size:calc(11 * var(--u))}
+ .hero .roles .role-web{width:calc(102 * var(--u));height:calc(25 * var(--u));font-size:calc(11 * var(--u))}
 }
